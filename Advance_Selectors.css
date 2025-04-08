@@ -1,0 +1,152 @@
+/* decendant selectors */
+
+/* article h1{ */
+    /* color: blue; */
+/* } */
+
+/* section article h1{ */
+    /* color: blue; */
+/* } */
+
+/* section article div p span { */
+    /* background-color: aqua; */
+/*  */
+/* } */
+
+/* section div p span { */
+    /* background-color: rgb(167, 47, 175); */
+/*  */
+/* } */
+
+/* section p span { */
+    /* background-color: rgb(24, 94, 94); */
+/*  */
+/* } */
+
+/* section span { */
+    /* background-color: rgb(133, 154, 170); */
+/*  */
+/* } */
+
+/* child selector means you can't skip in between */
+/* section>article>div>p>span{ */
+    /* background-color: brown; */
+/* } */
+
+/* decendant + child selector */
+/* section>p>span{ */
+    /* background-color: blueviolet; */
+/* } */
+
+/* genral sibling selector */
+/* article h1~p{ */
+    /* background-color: brown; */
+/* } */
+
+/* adjacent selector */
+/* article h1+p+p{ */
+    /* background-color: aquamarine; */
+
+/* article h1+p{ */
+    /* background-color: aquamarine; */
+/* } */
+
+/* Pseudo class selectors */
+
+/* hover selector */
+ 
+/* div{ */
+    /* background-color: brown; */
+    /* height: 100px; */
+    /* width: 100px; */
+/* } */
+/* div:hover{ */
+    /* background-color: blueviolet; */
+/* } */
+
+/* a:active{ */
+    /* background-color: rgb(184, 120, 37); */
+/* } */
+
+/* button:active{ */
+    /* background-color: brown; */
+/* } */
+
+/* focus selector */
+/* button:focus{ */
+    /* background-color: brown; */
+/* } */
+
+/* li:nth-of-type(odd){ */
+    /* background-color: blue; */
+/* } */
+/* li:nth-of-type(even){ */
+    /* background-color: blueviolet; */
+/* } */
+/* li:nth-of-type(3), */
+/* li:nth-of-type(5){ */
+    /* background-color: aquamarine; */
+/* } */
+/*  */
+
+/* pseudo element */
+
+/* p::first-line{ */
+    /* font-family: 'Times New Roman', Times, serif; */
+    /* background-color: blueviolet; */
+/* } */
+/*  */
+/* p::first-letter{ */
+    /* color: gold; */
+    /* font-size: xx-large; */
+/* } */
+/*  */
+
+/* h1::before{ */
+    /* content: "Good evening,"; */
+/* } */
+/* h1::after{ */
+    /* content: "sharma"; */
+/* } */
+
+/* for emoji */
+/* h1::after{ */
+    /* /* content: "\1F607"; */
+/* } */
+/*  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

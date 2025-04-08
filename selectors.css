@@ -1,0 +1,86 @@
+/* Element selectors */
+/* h1{ */
+    /* background-color: blue; */
+    /* font-family: cursive; */
+    /* font-size: larger; */
+/* } */
+/* p{ */
+    /* border: 2px solid brown; */
+    /* border: 2px dashed brown; */
+    /* border: 2px dotted brown; */
+/* } */
+
+/* Class selectors */
+/* group some elements */
+/* class can be different */
+
+/* Group selectors */
+/* h1,h2,h5{ */
+    /* background-color: blue; */
+/* font-family: cursive; */
+/* font-size: larger; */
+/* } */
+
+/* alternative solution */
+/* .hello{ */
+      /* background-color: blue; */
+       /* font-family: cursive; */
+       /* font-size: larger;  */
+/* } */
+/* .hi{ */
+    /* background-color:brown ; */
+/* } */
+/* .whatsup{ */
+    /* background-color: blueviolet; */
+/* } */
+/* .abc{ */
+    /* font-size: 100px; */
+/* } */
+/* .def{ */
+    /* font-size: 75px; */
+/* } */
+/* .ghi{ */
+    /* font-size: 50px; */
+/* } */
+/* .jkl{ */
+    /* font-size: 20px; */
+/* } */
+
+/* Id selector */
+/* giving different id's to tag/element */
+/* #heading{ */
+    /* background-color: brown; */
+/* } */
+/* #paragraph{ */
+    /* color: blueviolet; */
+/* } */
+
+/* #heading1{ */
+    /* background-color: brown; */
+/* } */
+/* #heading2{ */
+    /* color: blueviolet; */
+/* } */
+/* #heading3{ */
+    /* background-color: rgb(58, 165, 42); */
+/* } */
+
+
+/* Attribute selectors */
+/* input[type="text"]{ */
+    /* background-color: aqua; */
+/* } */
+/* input[type="password"]{ */
+    /* background-color: brown; */
+/* } */
+/* a[href="https://www.google.com/"]{ */
+    /* background-color: chartreuse; */
+/* } */
+/* img[src="https://img-cdn.pixlr.com/image-generator/history/65bb506dcb310754719cf81f/ede935de-1138-4f66-8ed7-44bd16efc709/medium.webp"]{ */
+    /* height:200px; */
+    /* width:200px; */
+/* } */
+
+/* input[placeholder="enter your text here"]{ */
+    /* background-color: blueviolet; */
+/* } */
