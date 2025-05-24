@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+    animation-name: movingBox;
+    animation-timing-function: ease-in;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    border-radius: 100px;
+    border: 2px solid black;
+}
+@keyframes movingBox { 
+    25%{
+    color:aqua;
+    borer-radius: 100px;
+    border : 2px solid black;
+    /* transform: rotatex(90deg); */
+    transform: rotatex(90deg) translate(200px,150px) skewY(60deg);
+    /* transform:roted3d(1,0,1,90deg); */
+    /* transform: skewY(60deg); */
+}
+50%{
+    transform: skewX(360deg);
+    background-color: blueviolet;
+}
+75%{
+    transform:scale(0.5);
+    background-color: chartreuse;
+}
+100%{
+    transform: translateX(150px);
+    background-color: chocolate;
+}
+}
